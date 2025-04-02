@@ -3,6 +3,13 @@
 ## Overview
 This Python script converts a GLB 3D model file into a text file containing point cloud data with both position and color information.
 
+## Installation
+Before running the script, you'll need to install the required libraries using pip:
+
+```bash
+pip install trimesh pyrender numpy
+```
+
 ## Functionality
 The script performs the following operations:
 
@@ -28,14 +35,3 @@ This conversion is useful for applications that work with point cloud data rathe
 - Point cloud visualization tools
 - Point-based analysis programs
 - Processing pipelines that require raw point data
-
-## Required Libraries
-- trimesh
-- numpy
-- pyrender
-
-## Installation
-Before running the script, you'll need to install the required libraries using pip:
-
-```bash
-pip install trimesh pyrender numpy
