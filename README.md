@@ -1,4 +1,4 @@
-# GLB to Point Cloud Converter
+# GLB to txt file for Point Cloud
 
 ## Overview
 This Python script converts a GLB 3D model file into a text file containing point cloud data with both position and color information.
