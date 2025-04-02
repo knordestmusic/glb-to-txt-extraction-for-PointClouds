@@ -6,7 +6,7 @@ This Python script converts a GLB 3D model file into a text file containing poin
 ## Functionality
 The script performs the following operations:
 
-1. Loads a GLB file named "13_3_2025.glb" using the trimesh library
+1. Loads a GLB file using the trimesh library
 2. Extracts the 3D mesh data from the loaded file
 3. Obtains the XYZ coordinates (vertices) of the mesh
 4. Attempts to extract RGB color information through multiple fallback methods:
