@@ -3,7 +3,7 @@ import numpy as np
 import pyrender
 
 # Load the GLB file
-scene = trimesh.load("13_3_2025.glb")
+scene = trimesh.load("YOUR FILE PATH")
 
 # Extract mesh
 if isinstance(scene, trimesh.Scene):
@@ -14,7 +14,7 @@ else:
 # Extract XYZ coordinates
 vertices = mesh.vertices
 
-# Try to extract vertex colors
+# extract vertex colors
 if hasattr(mesh.visual, 'vertex_colors') and mesh.visual.vertex_colors is not None:
     colors = mesh.visual.vertex_colors[:, :3]  # Ignore alpha channel
 elif hasattr(mesh.visual, 'to_color') and callable(getattr(mesh.visual, 'to_color', None)):
